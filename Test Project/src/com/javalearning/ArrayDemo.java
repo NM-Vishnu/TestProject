@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ArrayDemo {
 
 	public static void main(String[] args) {
-		char[] source = {'V','I','S','S','H','S','S'};
+		char[] source = {'V','I','S','S','H','N','U'};
 		char[] newSource = new char[6];
 		char toBeDeleted = source[3];
 		
@@ -20,8 +20,9 @@ public class ArrayDemo {
 	                	newSource[j] = source[j+1];
 	                	System.out.println("Second" + Arrays.toString(newSource));
 	                }
-	                
+	                break;   
 	            }
+			System.out.println("Second D" + Arrays.toString(newSource));
 	        }
 		System.out.println("New Array is:" + Arrays.toString(newSource));
 	}
